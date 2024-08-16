@@ -15,7 +15,7 @@
 <!-- Badges -->
 <div align="center">
   <!-- Profiles -->
-  <a href="https://www.frontendmentor.io/profile/0xabdulkhalid">
+  <a href="https://www.frontendmentor.io/profile/aratidsa">
     <img src="https://img.shields.io/badge/Profile-aratidsa-fefefe?style=for-the-badge&logo=frontendmentor" alt="Arati D'sa Profile">
   </a> &nbsp;&nbsp;&nbsp;
 
@@ -48,7 +48,7 @@
 
 - |||
   | :----- | :----- |
-  | Solution URL: | [CLIPBOARD LANDING PAGE 🎯 [ ACCESSIBLE - BEM - VANILLA CSS3 - ES6 ]](https://www.frontendmentor.io/solutions/sunnyside-landing-page-accessible-bem-vanilla-css3-es6-FrM6b1vi3w) |
+  | Solution URL: | [CLIPBOARD LANDING PAGE 🎯](https://github.com/aratidsa/Clipboard-Landing-Page) |
   | Live Site URL: | https://design-clipboard-landing-page.netlify.app/ |
   |||
 
