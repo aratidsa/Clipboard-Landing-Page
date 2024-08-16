@@ -38,8 +38,9 @@
 ## **Preview**
 
 <div align='center'>
-<img src='./design/preview.webp' alt='Sunnyside Agency Landing Page solution preview image'>
-</div>
+
+
+
 
 
 <br>
