@@ -7,7 +7,7 @@
     <a href="https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="https://0xabdulkhalid.github.io/sunnyside-agency-landing-page/">View Demo</a>
+    <a href="https://design-clipboard-landing-page.netlify.app/">View Demo</a>
     &nbsp;·&nbsp;
   </p>
 </div>
@@ -49,7 +49,7 @@
 - |||
   | :----- | :----- |
   | Solution URL: | [CLIPBOARD LANDING PAGE 🎯 [ ACCESSIBLE - BEM - VANILLA CSS3 - ES6 ]](https://www.frontendmentor.io/solutions/sunnyside-landing-page-accessible-bem-vanilla-css3-es6-FrM6b1vi3w) |
-  | Live Site URL: | [https://0xabdulkhalid.github.io/sunnyside-agency-landing-page/](https://0xabdulkhalid.github.io/sunnyside-agency-landing-page/) |
+  | Live Site URL: | https://design-clipboard-landing-page.netlify.app/ |
   |||
 
 <br>
