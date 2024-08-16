@@ -1,0 +1,772 @@
+
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+/* RESET */
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{
+    max-width:100%;
+    display: block;
+}
+button{
+    font:inherit;
+}
+p,h1{
+    margin:0;
+}
+
+/* CUSTOM PROPERTIES */
+:root{
+    /* COLOR */
+    --clr-strongCyan: hsl(171, 66%, 44%);
+    --clr-lightBlue: hsl(233, 100%, 69%);
+    --clr-darkGrayishBlue: hsl(210, 10%, 33%);
+    --clr-grayishBlue: hsl(201, 11%, 66%);
+    
+    /* FONT SIZE */
+    --fs-18:1.13rem;
+
+    /* FONT WEIGHT */
+    --fw-400:400;
+    --fw-600:600;
+
+    /* FONT FAMILY */
+    --ff-baijamjuree:"Bai Jamjuree", sans-serif;
+}
+/* TYPOGRAPHY */
+.description{
+    font-size:1rem;
+    margin:0 auto;
+    width:91%;
+    line-height: 1.6;    
+}
+.h3-size{
+    font-size:1.5rem;
+    color:var(--clr-darkGrayishBlue);
+}
+
+/* BODY */
+body{
+    font-weight: var(--fw-400);
+    font-size: var(--fs-18);
+    font-family:var(--ff-baijamjuree);
+    line-height: 1.5;
+    color:var(--clr-grayishBlue);
+}
+
+/* COMPONENTS */
+
+/* Desktop Image */
+.desktop-img{
+    display: none;
+}
+.mobile-img{
+    width:100%;
+}
+
+/* Header*/
+.header-logo{
+    margin-top:-15rem;
+}
+
+/* Logo */
+.logo-img{
+    margin:0 auto;
+}
+
+/* Main */
+.main-container{
+    margin:0 auto;
+    width:90%;
+    text-align: center;
+}
+
+/* Top Heading */
+/* Copy History */
+.copy-history{
+    margin-top:3.63rem;
+    line-height:1.3;
+}
+.copy-title{
+    font-size:2rem;
+    margin-bottom:0.94rem;
+    color:var(--clr-darkGrayishBlue);
+}
+.copy-description{
+    margin-bottom:2.81rem;
+}
+
+/* Button */
+.btn-group{
+    display:flex;
+    flex-direction: column;
+}
+.btn{
+    width:91%;
+    margin:0 auto;
+    padding:0.75rem 0px;
+    font-size:1.19rem;
+    border-radius:1.88rem;
+    cursor: pointer;
+    color:hsl(200, 60%, 98%);
+    font-weight: var(--fw-600);
+}
+.btn-ios{
+    margin-bottom:1.5rem;
+    background-color: var(--clr-strongCyan);
+    box-shadow:inset 0.5px -0.13rem 0px hsl(171, 66%, 35%);
+    border:0.13rem solid hsl(171, 66%, 40%);
+}
+.btn-ios:hover{
+    box-shadow: 0px 0.31rem 0.94rem -0.31rem hsl(171, 65%, 43%);
+}
+.btn-mac{
+    background-color: var(--clr-lightBlue);
+    box-shadow:inset 0.5px -0.13rem 0px hsl(233, 56%, 56%);
+    border:0.13rem solid hsl(233, 56%, 56%);   
+}
+.btn-mac:hover{
+    box-shadow: 0px 0.31rem 0.94rem -0.31rem hsl(233, 56%, 56%);
+}
+
+/* Tools Section */
+.tools-section{
+    margin-top:47%;
+}
+.snippets-heading{
+   margin-bottom:0.88rem;
+   line-height: 1.3;
+   color:var(--clr-darkGrayishBlue);
+}
+.search-tools{
+    margin-top:19%;    
+}
+.computer-img{
+    width:91%;
+    margin:0 auto;
+}
+.search-container{
+    margin-top:16%
+}
+.search-text{
+    margin-top:-1rem;
+    margin-bottom:2.81rem;
+}
+.iCloud-text{
+    margin-top:-1.25rem;
+    margin-bottom:2.81rem;
+}
+.history-text{
+    margin-top:-1.25rem;
+    margin-bottom:2.81rem;
+}
+
+/* Access Section */
+.access-section{
+    margin-top:54%;
+}
+.access-title{
+    line-height:1.3;
+    text-transform: capitalize;
+    margin-bottom:1rem;
+    color:var(--clr-darkGrayishBlue);
+}
+.devices-img{
+    margin-top:18%;
+}
+
+/* Supercharge Section */
+.supercharge-section{
+    margin-top:28%;
+}
+.supercharge-title{
+    line-height:1.4;
+    margin-bottom:0.38rem;
+    color:var(--clr-darkGrayishBlue);
+}
+.tools-details{
+    margin-top:26%;
+}
+.tool-img{
+    margin:0 auto;
+}
+.blacklist-title{
+    margin-top:2.31rem;
+    margin-bottom:0.94rem;
+}
+.tool-space{
+    margin-top:3.44rem;
+}
+.tool-text{
+    margin-top:2.5rem;
+    margin-bottom:0.94rem;
+}
+
+/* Brand Logos */
+.brand-logos{
+    margin-top:37%;
+}
+.brand-logo{
+    margin:0 auto;
+}
+.brand-img{
+    margin-bottom:20%;
+}
+.brand-size{
+    width:43%;
+}
+.brand-ibm{
+    width:33%;
+}
+.brand-microsoft{
+    width:40%;    
+}
+.microsoft-img{
+    margin-bottom:18%;
+}
+.hp-img{
+    margin-bottom:18%;
+}
+.brand-hp{
+    width:30%;
+}
+
+/* Clipboard Section */
+.clipboard-section{
+    margin-top:49%;
+}
+.clipboard-title{
+    width:90%;
+    margin:0 auto;
+    line-height:1.4;
+    color:var(--clr-darkGrayishBlue);
+}
+.clipboard-description{
+    margin-top:0.63rem;
+    margin-bottom:2.81rem;
+}
+
+/* Footer */
+.page-footer{    
+    background-color: hsl(200, 33%, 98%);
+    margin-top:44%;
+    border:1px solid hsl(200, 33%, 98%);
+}
+.footer-logo{
+     margin-top:3.13rem;
+}
+.footer-logo-img{
+   margin:0 auto;
+    width:15%;
+}
+.links-groups{
+    margin:0 auto;
+    text-align: center;
+    margin-top:2.5rem;
+}
+.links{
+    margin-bottom:1.44rem;
+    color:var(--clr-darkGrayishBlue);
+}
+.links:hover{
+    color:var(--clr-strongCyan);
+    cursor:pointer;
+}
+.social-icons{
+    display:flex;
+    justify-content: center;
+    margin-top:2.81rem;
+    gap:2.5rem;
+    
+}
+.custom-color{
+    fill:var(--clr-strongCyan);
+}
+.social-icon{
+    transition: filter 0.3s ease;
+    cursor:pointer;
+}
+.social-icon:hover {
+    filter: invert(75%) sepia(41%) saturate(585%) hue-rotate(108deg) brightness(90%) contrast(88%);
+}
+.attribution{
+    margin-top:1.25rem;
+    font-size:0.75rem;
+    text-align: center;
+    color:var(--clr-darkGrayishBlue);
+}
+.attribution a{
+    text-decoration: none;
+    font-weight: var(--fw-600);
+    color:var(--clr-strongCyan);
+}
+
+/* Mobile Screen - 600px */
+@media (min-width:600px)
+{
+    /* Desktop Image */
+    .desktop-img{
+        display: inline;
+        width:100%;
+    }
+    /* Mobile Image */
+    .mobile-img{
+        display:none;
+    }
+
+    /* Header*/
+    .header-logo{
+        margin-top:-6.25rem;
+    }
+    .btn{
+        width:61%;
+        margin:0 auto;
+        padding:0.75rem 0px;
+        font-size:1.19rem;
+        border-radius:1.88rem;
+        cursor: pointer;
+        color:hsl(200, 60%, 98%);
+        font-weight: var(--fw-600);
+    }    
+    .btn-ios{
+        margin-bottom:1.5rem;
+        background-color: var(--clr-strongCyan);
+        box-shadow:inset 0.5px -0.13rem 0px hsl(171, 66%, 35%);
+        border:0.13rem solid hsl(171, 66%, 40%);
+    }
+
+    /* Tools Section */
+    .tools-section{
+        margin-top:20%;
+    }
+
+    /* Access Section */
+    .access-section{
+        margin-top:20%;
+    }
+
+    /* Supercharge Section */
+    .tools-details{
+        margin-top:5%;
+    }
+
+    /* Clipboard Section */
+    .clipboard-section{
+        margin-top:15%;
+    }
+
+    /* Footer */
+    .page-footer{    
+        margin-top:10%;
+    }
+
+}
+  
+/* Mobile Screen - 900px */
+@media (min-width:900px)
+{
+    
+    /* Header*/
+    .header-logo{
+        margin-top:-9.69rem;
+    }  
+
+    /* Top Heading */
+    /* Copy History */
+    .copy-title{
+        font-size:2.31rem;
+        margin-bottom:0.88rem;
+    }
+
+    /* Button */
+    .btn-group{
+        display:flex;
+        flex-direction: row;
+        gap:0.94rem;
+    }
+    .btn{
+        width:30%;
+        margin:0 auto;
+        padding:0.81rem 0px;
+    }
+    .btn-ios{
+        margin-right:4.38rem;
+    }
+    .btn-mac{
+        margin-left:-4.38rem;
+    }
+
+     /* Tools Section */
+    .tools-section{
+        margin-top:20%;
+    }
+    .snippets-heading{
+        margin-bottom:1.38rem;
+        font-size:2.31rem;
+    }
+
+    /* Access Section */
+    .access-section{
+        margin-top:20%;
+    }
+    .access-title{
+        text-transform: none;
+        margin-bottom:1.25rem;
+        font-size:2.31rem;
+    }
+
+    /* Supercharge Section */
+    .supercharge-section{
+        margin-top:5.2%;
+    }
+    .supercharge-title{
+        margin-bottom:0px;
+        font-size:2.31rem;
+    }
+    .tools-details{
+        margin-top:10%;
+    }
+
+    /* Brand Logos */
+    .brand-logos{
+        margin-top:17%;
+    }
+    .brand-img{
+        margin-bottom:10%;
+    }
+    .brand-size{
+        width:33%;
+    }
+    .brand-ibm{
+        width:23%;
+    }
+    .brand-microsoft{
+        width:30%;    
+    }
+    .brand-hp{
+        width:25%;
+    }
+    .microsoft-img{
+        margin-bottom:10%;
+    }
+    .hp-img{
+        margin-bottom:10%;
+    }
+
+    /* Clipboard Section */
+    .clipboard-section{
+        margin-top:20%;
+    }
+    .clipboard-title{
+        font-size:2.31rem;
+    }
+
+    /* Footer */
+    .page-footer{    
+        margin-top:10.5%;
+    }
+    .footer-details{
+        display:flex;
+    }
+    .footer-logo{
+        margin-top:2.81rem;
+   }
+   .footer-logo-img{
+      margin-left:3.13rem;
+      width:20%;
+   }
+    .links{
+        margin-bottom:0.5rem;
+        text-align: left;
+        font-size:1rem;
+        color:var(--clr-darkGrayishBlue);
+    }
+    .links-groups{
+        width:45%;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+        grid-template-rows: repeat(2, auto);  /* Creates 2 rows */
+        column-gap:1.88rem;
+        row-gap:0.63rem;
+        margin-left:2.69rem;
+        margin-top:2.69rem;
+    }
+    
+    .item1 {
+        grid-column: 1; /* Column 1 */
+        grid-row: 1;    /* Row 1 */
+    }
+    
+    .item3 {
+        grid-column: 2; /* Column 2 */
+        grid-row: 1;    /* Row 1 */
+    }
+    
+    .item5 {
+        grid-column: 3; /* Column 3 */
+        grid-row: 1;    /* Row 1 */
+    }
+    
+    .item2 {
+        grid-column: 1; /* Column 1 */
+        grid-row: 2;    /* Row 2 */
+    }
+    
+    .item4 {
+        grid-column: 2; /* Column 2 */
+        grid-row: 2;    /* Row 2 */
+    }
+
+    .social-icons{
+        display:flex;
+        justify-content: center;
+        margin-top:4.06rem;
+        gap:2.19rem;
+        margin-right:4.69rem;             
+    } 
+}    
+
+/* Mobile Screen - 1200px */
+@media (min-width:1200px)
+{
+    /* Header*/
+    .header-logo{
+        margin-top:-15.94rem;
+    }  
+    .logo-img{
+        width:9%;
+    }
+
+    /* Top Heading */
+    /* Copy History */
+    .copy-title{
+        font-size:2.94rem;
+        margin-bottom:0.88rem;
+    }
+    .copy-description{
+        margin-bottom:3rem; 
+        font-size:1.31rem;
+        width:54%;
+        word-spacing:0.13rem;
+    }
+
+    /* Button */
+    .btn{
+        width:18%;
+    }
+
+    /* Tools Section */
+    .tools-section{
+        margin-top:11.6%;
+    }
+    .cloud-info{
+        width:56%;
+        font-size:1.19rem;
+        word-spacing: 0.13rem;
+    }   
+    .search-tools{
+        display:flex;
+        margin-top:6.3%; 
+        justify-content: right;
+        width:100%;
+        margin-left:-7.19rem
+    }
+    .computer-img{
+        width:65.63rem;
+        overflow:hidden;
+    }
+    .search-container{
+        margin-top:3.2%;
+    }
+    .h3-size{
+        font-size:1.56rem;
+        margin-right:10.63rem;
+    }
+    .search-text{
+        margin-top:-1.25rem;
+        margin-bottom:3.63rem;
+        width:65%;
+        font-size:1.06rem;
+        text-align: left;
+        line-height:1.8;
+        margin-right:5rem;   
+    }    
+    .iCloud-heading{
+        margin-right:11.88rem;
+    }
+    .iCloud-text{
+        margin-top:-1.13rem;
+        margin-bottom:3.63rem;
+        font-size:1.06rem;
+        margin-right:5rem;  
+        width:65%;
+        text-align: left;
+        line-height:1.8;
+    }
+    .complete-history{
+        margin-right:8.13rem;
+    }
+    .history-text{
+        font-size:1.06rem;
+        width:65%;
+        text-align: left;
+        line-height:1.8;
+        margin-right:5rem; 
+    }
+
+    /* Access Section */
+    .access-section{
+        margin-top:9.5%;
+    }
+    .access-details{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .access-description{
+        font-size:1.19rem;
+        width:55%;
+        line-height: 1.7;
+        word-spacing:1px;
+    }
+    .devices-img{
+        margin-top:8%;
+        width:70%;
+    }
+
+    /* Supercharge Section */
+    .supercharge-title{
+        margin-bottom:1.19rem;
+    }
+    .productivity-tools{
+        font-size:1.19rem;
+    }
+    .tools-details{
+        display:grid;
+        grid-template-columns: 35% 30% 35%;
+        margin-top:5.5%;
+    }
+    .tool-space{
+        margin-top:0px;
+    }
+    .blackist-img{
+        margin-left:16.25rem;
+    }
+    .blacklist-title{
+        margin-top:2.69rem;
+        margin-left:10rem;
+        margin-bottom:0.75rem;
+        width:50%;
+    }
+    .blacklist-description{
+        width:75%;
+        line-height: 1.8;
+        margin-left:6.25rem;
+        font-size:1.06rem;
+    }
+    .icon-img{
+        margin-top:0.31rem;
+    }
+    .tool-text{
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .plain-snippets{
+        margin-top:2.81rem;
+        margin-left:4.06rem;
+        margin-bottom:0.94rem;
+        width:70%;
+    }
+    .tool-description{
+        font-size:1.06rem;
+        line-height: 1.8;
+        width:90%;
+    }
+    .preview-img{
+        margin-top:0.31rem;
+        margin-left:10.94rem;
+    }
+    .preview-title{
+        margin-top:2.81rem;
+        margin-left:5.63rem;
+        margin-bottom:0.94rem;
+    }
+    .preview-description{
+        font-size:1.06rem;
+        line-height: 1.8;
+        width:80%;
+        margin-left:0.31rem;
+    }
+   
+    /* Brand Logos */
+    .brand-logos{
+        display:grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        margin-top:12.2%;
+    }
+    .brand-img{
+        margin-bottom:0;
+    }    
+    .brand-size{
+        width:10.63rem;    
+        margin-left:5.94rem;  
+        margin-top:0.31rem;
+    }
+    .brand-ibm{
+        width:9.06rem;
+        margin-left:6.56rem;
+        margin-top:0.63rem;
+    }
+    .microsoft-img{
+        width:32.5rem;
+        margin-left:-6.44rem;
+        margin-top:0.94rem;
+    }
+    .hp-img{
+        width:31.25rem;
+        margin-left:-7.19rem;
+        margin-top:0.31rem;
+    }
+    .vector-img{
+        margin-top:1.25rem;
+        width:31.25rem;
+        margin-left:-8.44rem;
+    } 
+
+    /* Clipboard Section */
+    .clipboard-section{
+        margin-top:10.8%;
+    }
+    .clipboard-description{
+        margin-top:1rem;
+        margin-bottom:3.13rem;
+        font-size:1.19rem;
+        line-height: 1.7;
+        width:56%;
+        word-spacing:0.06rem;
+    } 
+
+    /* Footer */
+   .footer-logo-img{
+      margin-left:10.63rem;
+   }
+    .links-groups{
+        width:35%;
+        column-gap:4.38rem;
+        margin-left:4.56rem;
+        margin-top:2.69rem;
+    }
+    .links{
+        font-size:1.13rem;
+    }
+    .social-icons{
+        margin-right:9.69rem;             
+    }
+
+}
+
